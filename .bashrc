@@ -57,13 +57,16 @@ function prompt_command()
   fi
 
   if git rev-parse 2> /dev/null; then
-    local git_status=$(git status -s 2> /dev/null)
+    local git_status=$(git status -s)
+    local git_unpushed=$(git log --branches --not --remotes)
     if [[ $git_status ]]; then
-      if git diff --quiet HEAD --staged; then
+      if [[ $(git add --all --dry-run) ]] ; then
         local git_color='\e[31m'
       else
         local git_color='\e[33m'
       fi
+    elif [[ $git_unpushed ]]; then
+      local git_color='\e[34m'
     fi
     local git_output="${git_color}git"
   fi
