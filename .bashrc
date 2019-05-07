@@ -82,14 +82,14 @@ function prompt_command()
     elif [[ $git_unpushed ]]; then
       local git_color='\e[36m'
     fi
-    local git_output=" \[${git_color}\]($(basename $(git rev-parse --show-toplevel)):$(git rev-parse --abbrev-ref HEAD))"
+    local git_output=" \[\e[0m${git_color}\]($(basename $(git rev-parse --show-toplevel)):$(git rev-parse --abbrev-ref HEAD))"
   fi
 
   PS1=$PROMPT_INFO
 
   PS1+="\[\e[0m${status_color}\][\[${path_color}\]\W\[\e[0m${status_color}\]]"
 
-  PS1+="\e[0m${git_output}"
+  PS1+="${git_output}"
 
   PS1+="\[\e[0m\] \$ "
 }

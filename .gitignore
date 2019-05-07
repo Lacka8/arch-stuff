@@ -6,3 +6,5 @@
 .pki
 .config/menus
 .config/chromium
+downloads/
+.config/dconf/
