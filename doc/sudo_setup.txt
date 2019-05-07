@@ -18,5 +18,6 @@ cat > /etc/sudoers.d/mysudoers
 Defaults targetpw  # Ask for the password of the target user
 Defaults pwfeedback # Visual feedback when typing password
 Defaults timestamp_timeout=30 # 30 seconds before timeout
-nano /etc/default/grub # ghanged GRUB_CMDLINE_LINUX="fbcon=scrollback:1024k"
+nano /etc/default/grub # ghanged GRUB_CMDLINE_LINUX="fbcon=scrollback:1024k" # more scrollback on tty
+grub-mkconfig -o /boot/grub/grub.cfg # regen grub config
 nano /etc/pacman.conf # uncommented multilib
