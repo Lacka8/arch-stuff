@@ -1,0 +1,20 @@
+pacman -S networkmanager
+systemctl enable NetworkManage
+pacman -S grub
+grub-install --target=i386-pc /dev/sda
+grub-mkconfig -o /boot/grub/grub.cfg
+passwd
+nano /etc/locale.gen # uncommented en_US.UTF-8 UTF-8 and en_US ISO-8859-1
+export LANG=c # man started working properly with this
+locale-gen 
+echo 'LANG=en_US.UTF-8' > /etc/locale.conf
+ln -sf /usr/share/zoneinfo/CET /etc/localtime 
+echo 'Sally' > /etc/hostname
+useradd -m -g wheel -s /bin/bash lacka
+paswd lacka
+cat > /etc/sudoers.d/mysudoers
+%wheel ALL=(ALL) ALL
+Defaults targetpw  # Ask for the password of the target user
+Defaults pwfeedback # Visual feedback when typing password
+Defaults timestamp_timeout=30 # 30 seconds before timeout
+nano /etc/default/grub # ghanged GRUB_CMDLINE_LINUX="fbcon=scrollback:1024k"
