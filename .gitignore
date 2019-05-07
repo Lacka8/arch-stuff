@@ -8,3 +8,4 @@
 .config/chromium
 downloads/
 .config/dconf/
+.gnupg/
