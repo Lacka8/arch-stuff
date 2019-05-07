@@ -36,6 +36,20 @@ alias please='sudo $(history -p !!)'
 alias pls='please'
 
 # Color prompt based on exit code, path and git status
+
+export PROMPT_INFO=''
+
+function prompt_info(){
+  if [[ ${#PROMPT_INFO} == 0 ]]; then
+    local top_right=$USER'@'$HOSTNAME
+    PROMPT_INFO="\[\e[0m\e7\e[${LINES}A\e[$( expr $COLUMNS - length $top_right)C\e[7m${top_right}\e8\]"
+  else
+    PROMPT_INFO=''
+  fi
+}
+
+prompt_info
+
 function prompt_command()
 {
   local exit_status=$?
@@ -66,14 +80,12 @@ function prompt_command()
         local git_color='\e[33m'
       fi
     elif [[ $git_unpushed ]]; then
-      local git_color='\e[34m'
+      local git_color='\e[36m'
     fi
-    local git_output="${git_color}git"
+    local git_output=" \[${git_color}\]($(basename $(git rev-parse --show-toplevel)):$(git rev-parse --abbrev-ref HEAD))"
   fi
 
-  local top_right=$USER'@'$HOSTNAME
-
-  PS1="\[\e[0m\e7\e[${LINES}A\e[$( expr $COLUMNS - length $top_right)C\e[7m${top_right}\e8\]"
+  PS1=$PROMPT_INFO
 
   PS1+="\[\e[0m${status_color}\][\[${path_color}\]\W\[\e[0m${status_color}\]]"
 
