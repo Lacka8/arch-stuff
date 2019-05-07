@@ -56,13 +56,25 @@ function prompt_command()
     local path_color='\e[94m'
   fi
 
+  if git rev-parse 2> /dev/null; then
+    local git_status=$(git status -s 2> /dev/null)
+    if [[ $git_status ]]; then
+      if git diff --quiet HEAD --staged; then
+        local git_color='\e[31m'
+      else
+        local git_color='\e[33m'
+      fi
+    fi
+    local git_output="${git_color}git"
+  fi
+
   local top_right=$USER'@'$HOSTNAME
 
   PS1="\[\e[0m\e7\e[${LINES}A\e[$( expr $COLUMNS - length $top_right)C\e[7m${top_right}\e8\]"
 
   PS1+="\[\e[0m${status_color}\][\[${path_color}\]\W\[\e[0m${status_color}\]]"
 
-  # PS1+="${git_output}"
+  PS1+="${git_output}"
 
   PS1+="\[\e[0m\] \$ "
 }
