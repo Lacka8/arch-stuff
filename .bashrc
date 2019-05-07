@@ -38,28 +38,32 @@ alias pls='please'
 # Color prompt based on exit code, path and git status
 function prompt_command()
 {
-  local exit_status=$?						# Get command exit status
-  if [[ $exit_status == 0 ]]; then				# On success
-    local status_color='\e[32m'					# Green color
-  elif [[ $exit_status == 126  || $exit_status == 127 ]]; then	# On typo or missing command
-    local status_color='\e[33m'					# Orange-ish color
-  elif [[ $exit_status == 130 ]]; then				# On Ctrl-C
-    local status_color='\e[94m'					# Blue color
-  else								# Rest of the cases
-    local status_color='\e[31m'					# Red color
+  local exit_status=$?
+
+  case $exit_status in
+    0) 		local status_color='\e[32m';;
+    126|127)	local status_color='\e[33m';;
+    130)	local status_color='\e[94m';;
+    *)		local status_color='\e[31m';;
+  esac
+
+  local owner=$(ls -lnd | awk '{print $3}')
+  if [ $owner == $UID ] ; then
+    local path_color='\e[37m'
+  elif [ $owner == 0 ] ; then
+    local path_color='\e[93m'
+  else
+    local path_color='\e[94m'
   fi
-  local owner=$(ls -ld | awk '{print $3}')			# Get owner of current dir
-  if [ "$owner" == $USER ] ; then				# If the owner is the user 
-    local path_color='\e[37m'					# White color
-  elif [ "$owner" == "root" ] ; then				# If owner is root
-    local path_color='\e[34m'					# Red color
-  else								# Owner is other user
-    local path_color='\e[35m' 					# Magenta Color
-  fi
+
   local top_right=$USER'@'$HOSTNAME
-  PS1="\[\e7\e[${LINES}A\e[$( expr $COLUMNS - length $top_right)C\e[7m${top_right}\e8\]"
-  PS1+="\[${status_color}\][\[${path_color}\]\W\[$status_color\]]"
+
+  PS1="\[\e[0m\e7\e[${LINES}A\e[$( expr $COLUMNS - length $top_right)C\e[7m${top_right}\e8\]"
+
+  PS1+="\[\e[0m${status_color}\][\[${path_color}\]\W\[\e[0m${status_color}\]]"
+
   # PS1+="${git_output}"
+
   PS1+="\[\e[0m\] \$ "
 }
 
