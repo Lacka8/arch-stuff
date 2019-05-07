@@ -19,3 +19,4 @@ Defaults targetpw  # Ask for the password of the target user
 Defaults pwfeedback # Visual feedback when typing password
 Defaults timestamp_timeout=30 # 30 seconds before timeout
 nano /etc/default/grub # ghanged GRUB_CMDLINE_LINUX="fbcon=scrollback:1024k"
+nano /etc/pacman.conf # uncommented multilib
