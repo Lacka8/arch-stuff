@@ -89,7 +89,7 @@ function prompt_command()
 
   PS1+="\[\e[0m${status_color}\][\[${path_color}\]\W\[\e[0m${status_color}\]]"
 
-  PS1+="${git_output}"
+  PS1+="\e[0m${git_output}"
 
   PS1+="\[\e[0m\] \$ "
 }

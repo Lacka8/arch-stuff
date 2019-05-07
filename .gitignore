@@ -3,3 +3,6 @@
 .gitconfig
 .ssh
 .local
+.pki
+.config/menus
+.config/chromium
