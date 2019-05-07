@@ -39,7 +39,6 @@ alias pls='please'
 function prompt_command()
 {
   local exit_status=$?						# Get command exit status
-  PS1='\[\e[0m' 						# Reset text formatting and start noadvancing block
   if [[ $exit_status == 0 ]]; then				# On success
     local status_color='\e[32m'					# Green color
   elif [[ $exit_status == 126  || $exit_status == 127 ]]; then	# On typo or missing command
@@ -57,47 +56,11 @@ function prompt_command()
   else								# Owner is other user
     local path_color='\e[35m' 					# Magenta Color
   fi
-  local git_output=''
-  exec 6>&2 2> /dev/null
-  git status -s 1> /dev/null
-  if [[ $? == 0 ]] ; then
-    local fetch_needed=$(git fetch --dry-run)
-    local unstaged=$(git ls-files -o -m --exclude-standard)
-    git diff --quiet HEAD
-    local uncommited=$?
-    local unpushed=$(git log --branches --not --remotes)
-    if [[ ${#fetch_needed} > 0 ]] ; then 
-      git_output+='\e[35m'
-    elif [[ ${#unstaged} > 0 ]] ; then
-      git_output+='\e[31m'
-    elif [[ $uncommited != 0 ]] ; then
-      git_output+='\e[33m'
-    elif [[ ${#unpushed} > 0 ]] ; then
-      git_output+='\e[34m'
-    else
-      git_output+='\e[32m'
-    fi
-    git_output+=' ('$(basename $(git rev-parse --show-toplevel))':'$(git rev-parse --abbrev-ref HEAD)')'
-  fi
-  exec 2>&6
-  local top_right=$USER'@'$HOSTNAME				# Username@Hostname
-  PS1+='\e7'							# Save cursor position
-  PS1+='\e['$LINES'A'						# Move cursor to top of the screne
-  PS1+='\e['$( expr $COLUMNS - length $top_right)'C'		# Move cursor to 'almost' end of line 
-  PS1+='\e[7m'							# Invert colors
-  PS1+=$top_right
-  PS1+='\e8'							# Load cursor position
-  PS1+=$status_color
-  PS1+='\][\['
-  PS1+=$path_color
-  PS1+='\]\W\['							# Working directory
-  PS1+='\e[39m'
-  PS1+=$status_color
-  PS1+='\]]\['
-  PS1+='\e[0m\]'						# Default formatting
-  PS1+=$git_output
-  PS1+='\[\e[0m'						# Default formatting
-  PS1+='\] \$ '							# Print $
+  local top_right=$USER'@'$HOSTNAME
+  PS1="\[\e7\e[${LINES}A\e[$( expr $COLUMNS - length $top_right)C\e[7m${top_right}\e8\]"
+  PS1+="\[${status_color}\][\[${path_color}\]\W\[$status_color\]]"
+  # PS1+="${git_output}"
+  PS1+="\[\e[0m\] \$ "
 }
 
 export PROMPT_COMMAND=prompt_command
