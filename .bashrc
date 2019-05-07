@@ -62,13 +62,13 @@ function prompt_command()
   git status -s 1> /dev/null
   if [[ $? == 0 ]] ; then
     local fetch_needed=$(git fetch --dry-run)
-    local unadded=$(git ls-files -o --exclude-standard)
+    local unstaged=$(git ls-files -o -m --exclude-standard)
     git diff --quiet HEAD
     local uncommited=$?
     local unpushed=$(git log --branches --not --remotes)
     if [[ ${#fetch_needed} > 0 ]] ; then 
       git_output+='\e[35m'
-    elif [[ ${#unadded} > 0 ]] ; then
+    elif [[ ${#unstaged} > 0 ]] ; then
       git_output+='\e[31m'
     elif [[ $uncommited != 0 ]] ; then
       git_output+='\e[33m'

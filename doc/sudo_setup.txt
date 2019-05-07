@@ -1,3 +1,4 @@
+# Things i did on this install (mostly from arch-chroot)
 pacman -S networkmanager
 systemctl enable NetworkManage
 pacman -S grub
