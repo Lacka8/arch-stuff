@@ -9,3 +9,5 @@
 downloads/
 .config/dconf/
 .gnupg/
+.Xauthority
+.config/sublime-text-3/
