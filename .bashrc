@@ -82,7 +82,7 @@ function prompt_command()
     elif [[ $git_unpushed ]]; then
       local git_color='\e[36m'
     else
-      local git_color='\e[33m'
+      local git_color='\e[32m'
     fi
     local git_output=" \[\e[0m${git_color}\]($(basename $(git rev-parse --show-toplevel)):$(git rev-parse --abbrev-ref HEAD))"
   fi
