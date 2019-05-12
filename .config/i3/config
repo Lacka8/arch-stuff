@@ -191,3 +191,8 @@ bindsym XF86Calculator exec /home/lacka/.scripts/soud_switcher.sh
 # Automatic back-and-forth when switching to the current workspace
 
 workspace_auto_back_and_forth yes
+
+# Move between workspaces
+
+bindsym $mod+Control+Left exec i3-msg workspace prev
+bindsym $mod+Control+Right exec i3-msg workspace next

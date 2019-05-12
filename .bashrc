@@ -40,9 +40,10 @@ alias pls='please'
 export PROMPT_INFO=''
 
 function prompt_info(){
+  local info=$USER'@'$HOSTNAME
   if [[ ${#PROMPT_INFO} == 0 ]]; then
-    local top_right=$USER'@'$HOSTNAME
-    PROMPT_INFO="\[\e[0m\e7\e[${LINES}A\e[$( expr $COLUMNS - length $top_right)C\e[7m${top_right}\e8\]"
+    # PROMPT_INFO="\[\e[0m\e7\e[\${LINES}A\e[\$( expr $COLUMNS - length $top_right)C\e[7m${top_right}\e8\]"
+    PROMPT_INFO="${info} "
   else
     PROMPT_INFO=''
   fi
@@ -87,9 +88,7 @@ function prompt_command()
     local git_output=" \[\e[0m${git_color}\]($(basename $(git rev-parse --show-toplevel)):$(git rev-parse --abbrev-ref HEAD))"
   fi
 
-  PS1=$PROMPT_INFO
-
-  PS1+="\[\e[0m${status_color}\][\[${path_color}\]\W\[\e[0m${status_color}\]]"
+  PS1="\[\e[0m${status_color}\][$PROMPT_INFO\[${path_color}\]\W\[\e[0m${status_color}\]]"
 
   PS1+="${git_output}"
 
