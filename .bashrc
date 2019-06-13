@@ -16,11 +16,26 @@ export HISTCONTROL=ignoreboth:erasedups
 # Append to history instead of overwriting
 # shopt -s histappend 
 
+# Nano settings
+alias nano='nano -AMPZabceijlm -T 2'
+
 # Colorize the ls output
 alias ls='ls -h --color=auto --group-directories-first'
 
 # Detailed long listing with ls
-alias ll='ls -la'
+alias ll='ls -lah'
+
+# Less with clean exit and scrollback
+LESS="-ch0ry0FKQX"; export LESS
+
+# Less is more colorful
+export LESS_TERMCAP_mb=$'\E[1;31m'
+export LESS_TERMCAP_md=$'\E[1;36m'
+export LESS_TERMCAP_me=$'\E[0m'
+# export LESS_TERMCAP_so=$'\E[01;44;33m'
+# export LESS_TERMCAP_se=$'\E[0m'
+export LESS_TERMCAP_us=$'\E[1;32m'
+export LESS_TERMCAP_ue=$'\E[0m'
 
 # Colorize the grep output
 alias grep='grep --color=auto'
