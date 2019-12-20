@@ -1,0 +1,5 @@
+To install Arch I followed the Arch wiki installation guide:
+https://wiki.archlinux.org/index.php/installation_guide
+
+Also Luke Smith - Full Arch Linux Install (SAVAGE Edition!) is a useful source!
+

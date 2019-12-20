@@ -12,3 +12,6 @@ downloads/
 .Xauthority
 .config/sublime-text-3/
 .lesshst
+.viminfo
+tmp/
+
