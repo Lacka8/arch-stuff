@@ -14,4 +14,5 @@ downloads/
 .lesshst
 .viminfo
 tmp/
+.gnome/
 

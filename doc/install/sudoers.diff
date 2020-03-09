@@ -1,0 +1,8 @@
+82c82
+<  %wheel ALL=(ALL) ALL
+---
+> # %wheel ALL=(ALL) ALL
+98,100d97
+< 
+< ## Own changes
+< Defaults	insults

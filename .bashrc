@@ -16,6 +16,14 @@ export HISTCONTROL=ignoreboth:erasedups
 # Append to history instead of overwriting
 # shopt -s histappend 
 
+# Try to save multiline command in one entry
+shopt -s cmdhist
+
+# Minor typos are corrected in cd
+shopt -s cdspell
+
+
+
 # Nano settings
 alias nano='nano -AMPZabceijlm -T 2'
 
@@ -24,9 +32,10 @@ alias ls='ls -h --color=auto --group-directories-first'
 
 # Detailed long listing with ls
 alias ll='ls -lah'
+alias la='ll'
 
 # Less with clean exit and scrollback
-LESS="-ch0ry0FKQX"; export LESS
+LESS="-iwgerMFKQX --mouse --wheel-lines=4"; export LESS
 
 # Less is more colorful
 export LESS_TERMCAP_mb=$'\E[1;31m'
