@@ -15,4 +15,4 @@ downloads/
 .viminfo
 tmp/
 .gnome/
-
+.codeintel/

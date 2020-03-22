@@ -14,7 +14,7 @@ HISTFILESIZE=
 export HISTCONTROL=ignoreboth:erasedups
 
 # Append to history instead of overwriting
-# shopt -s histappend 
+# shopt -s histappend
 
 # Try to save multiline command in one entry
 shopt -s cmdhist
@@ -59,66 +59,67 @@ alias sudo='sudo '
 alias please='sudo $(history -p !!)'
 alias pls='please'
 
-# Color prompt based on exit code, path and git status
+# Some colors for easy use
+# May look different in other terminals
 
-export PROMPT_INFO=''
+Black=$'\e[0;30m'
+Red=$'\e[0;31m'
+Green=$'\e[0;32m'
+Orange=$'\e[0;33m'
+Blue=$'\e[0;34m'
+Purple=$'\e[0;35m'
+Cyan=$'\e[0;36m'
+White=$'\e[0;37m'
 
-function prompt_info(){
-  local info=$USER'@'$HOSTNAME
-  if [[ ${#PROMPT_INFO} == 0 ]]; then
-    # PROMPT_INFO="\[\e[0m\e7\e[\${LINES}A\e[\$( expr $COLUMNS - length $top_right)C\e[7m${top_right}\e8\]"
-    PROMPT_INFO="${info} "
-  else
-    PROMPT_INFO=''
+Gray=$'\e[1;30m'
+Pink=$'\e[1;31m'
+LGreen=$'\e[1;32m'
+Yellow=$'\e[1;33m'
+LBlue=$'\e[1;34m'
+Magenta=$'\e[1;35m'
+LCyan=$'\e[0;36m'
+Whiteish=$'\e[1;37m'
+
+ColorReset=$'\e[m'
+
+PS_INFO=$USER'@'$HOSTNAME
+function exit_status(){
+  case $? in
+    0)        echo -n $Green;; # Succesful command
+    126|127)  echo -n $Yellow;;  # Command not found
+    130)      echo -n $Blue;;  # Command terminated by CTRL + C
+    *)        echo -n $Red;;   # Any other error
+esac
+}
+
+function path_owner(){
+  local owner=$(stat -c "%u" .)
+  if [ $owner == $UID ] ; then  # User's dir
+    echo -n $Whiteish
+  elif [ $owner == 0 ] ; then   # Root dir
+    echo -n $Yellow
+  else                          # Other user's dir
+    echo -n $Magenta
   fi
 }
 
-prompt_info
-
-function prompt_command()
-{
-  local exit_status=$?
-
-  case $exit_status in
-    0) 		local status_color='\e[32m';;
-    126|127)	local status_color='\e[33m';;
-    130)	local status_color='\e[94m';;
-    *)		local status_color='\e[31m';;
-  esac
-
-  local owner=$(ls -lnd | awk '{print $3}')
-  if [ $owner == $UID ] ; then
-    local path_color='\e[37m'
-  elif [ $owner == 0 ] ; then
-    local path_color='\e[93m'
-  else
-    local path_color='\e[94m'
-  fi
-
+function git_status(){
   if git rev-parse 2> /dev/null; then
-    local git_status=$(git status -s)
-    local git_unpushed=$(git log --branches --not --remotes)
-    if [[ $git_status ]]; then
+    if [[ $(git status --porcelain) ]];then
       if [[ $(git add --all --dry-run) ]] ; then
-        local git_color='\e[31m'
+        echo -n $Red
       else
-        local git_color='\e[33m'
+        echo -n $Orange
       fi
-    elif [[ $git_unpushed ]]; then
-      local git_color='\e[36m'
     else
-      local git_color='\e[32m'
+      if [[ $git_unpushed ]]; then
+        echo -n $Blue
+      else
+        echo -n $Green
+      fi
     fi
-    local git_output=" \[\e[0m${git_color}\]($(basename $(git rev-parse --show-toplevel)):$(git rev-parse --abbrev-ref HEAD))"
+    echo -n '('$(git rev-parse --abbrev-ref HEAD)')'
   fi
-
-  PS1="\[\e[0m${status_color}\][$PROMPT_INFO\[${path_color}\]\W\[\e[0m${status_color}\]]"
-
-  PS1+="${git_output}"
-
-  PS1+="\[\e[0m\] \$ "
 }
 
-export PROMPT_COMMAND=prompt_command
-
-# PS1='[\u@\h \W]\$'
+PS1='$(exit_status)[ ${PS_INFO} $(path_owner)\W$(exit_status)] $(git_status) $ColorReset\$ '
