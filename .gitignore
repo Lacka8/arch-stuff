@@ -6,7 +6,7 @@
 .pki
 .config/menus
 .config/chromium
-downloads/
+Downloads/
 .config/dconf/
 .gnupg/
 .Xauthority
@@ -16,3 +16,4 @@ downloads/
 tmp/
 .gnome/
 .codeintel/
+.cargo/

@@ -22,6 +22,10 @@ shopt -s cmdhist
 # Minor typos are corrected in cd
 shopt -s cdspell
 
+
+# Adding cargo (rust) to path
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # Color definitions (taken from Color Bash Prompt HowTo).
 # Some colors might look different of some terminals.
 # For example, I see 'Bold Red' as 'orange' on my screen,
@@ -121,31 +125,30 @@ Whiteish=$'\e[1;37m'
 
 ColorReset=$'\e[m'
 
-PS_INFO=$USER'@'$HOSTNAME
-function exit_status(){
+function status_color(){
   case $? in
-    0)        echo -n $Green;; # Succesful command
-    126|127)  echo -n $Yellow;;  # Command not found
-    130)      echo -n $Blue;;  # Command terminated by CTRL + C
-    *)        echo -n $Red;;   # Any other error
+    0)        echo -en $Green;; # Succesful command
+    126|127)  echo -en $Yellow;;  # Command not found
+    130)      echo -en $Blue;;  # Command terminated by CTRL + C
+    *)        echo -en $Red;;   # Any other error
 esac
 }
 
-function path_owner(){
-  local owner=$(stat -c "%u" .)
+function owner_color(){
+  local owner=$(stat -c "%u" . 2> /dev/null)
   if [ $owner == $UID ] ; then  # User's dir
-    echo -n $Whiteish
+    echo -en $Whiteish
   elif [ $owner == 0 ] ; then   # Root dir
-    echo -n $Yellow
+    echo -en $Yellow
   else                          # Other user's dir
-    echo -n $Magenta
+    echo -en $Magenta
   fi
 }
 
-function git_status(){
+function git_color(){
   if git rev-parse 2> /dev/null; then
-    if [[ $(git status --porcelain) ]];then
-      if [[ $(git add --all --dry-run) ]] ; then
+    if [[ $(git status --porcelain 2> /dev/null) ]];then
+      if [[ $(git add --all --dry-run 2> /dev/null) ]] ; then
         echo -n $Red
       else
         echo -n $Orange
@@ -157,8 +160,7 @@ function git_status(){
         echo -n $Green
       fi
     fi
-    echo -n '('$(git rev-parse --abbrev-ref HEAD)')'
   fi
 }
 
-PS1='$(exit_status)[ ${PS_INFO} $(path_owner)\W$(exit_status)] $(git_status) $ColorReset\$ '
+PS1='\[$(status_color)\][ \u@\h \[$(owner_color)\]\W\[$(status_color)\]] \[$(git_color)\]$(git rev-parse --abbrev-ref HEAD) \[$ColorReset\]\$ '

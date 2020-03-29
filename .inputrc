@@ -1,0 +1,5 @@
+# Case insensitive tab completion
+set completion-ignore-case on
+
+# Symlink directories have slash after autocomplete
+set mark-symlinked-directories
