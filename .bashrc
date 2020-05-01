@@ -163,4 +163,12 @@ function git_color(){
   fi
 }
 
-PS1='\[$(status_color)\][ \u@\h \[$(owner_color)\]\W\[$(status_color)\]] \[$(git_color)\]$(git rev-parse --abbrev-ref HEAD) \[$ColorReset\]\$ '
+if [ "$TERM" == "linux" ]
+then
+  PS1='\[$(status_color)\][ \u@\h \[$(owner_color)\]\W\[$(status_color)\]] \[$(git_color)\]$(git rev-parse --abbrev-ref HEAD) \[$ColorReset\]\$ '
+else
+  powerline-daemon -q
+  POWERLINE_BASH_CONTINUATION=1
+  POWERLINE_BASH_SELECT=1
+  . /usr/share/powerline/bindings/bash/powerline.sh
+fi
