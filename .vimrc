@@ -93,7 +93,8 @@ nnoremap <A-k> mz:m-2<cr>==
 autocmd BufWritePre * :%s/\s\+$//e
 
 " Unhighlight search resoults with Esc
-nmap <siletn> <Esc><Esc> <Esc>:nohlseatch<CR><Esc>
+nnoremap <esc> :noh<return><esc>
+nnoremap <esc>^[ <esc>^[
 
 " powerline
 let g:powerline_pycmd="python3"
