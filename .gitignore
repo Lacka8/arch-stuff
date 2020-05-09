@@ -18,4 +18,6 @@ tmp/
 .codeintel/
 .cargo/
 Documents
-
+.config/spyder-py3/
+.ipython/
+.vim/
