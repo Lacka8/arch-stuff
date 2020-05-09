@@ -67,6 +67,10 @@ NC="\e[m"               # Color Reset
 
 ALERT=${BWhite}${On_Red} # Bold White on red background
 
+# Set vim as default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 # Nano settings
 alias nano='nano -AMPZabceijlm -T 2'
 
