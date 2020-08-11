@@ -21,3 +21,5 @@ Documents
 .config/spyder-py3/
 .ipython/
 .vim/
+.python_history
+.config/swi-prolog/
