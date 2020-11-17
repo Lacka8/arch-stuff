@@ -23,3 +23,6 @@ Documents
 .vim/
 .python_history
 .config/swi-prolog/
+.config/rclone/rclone.conf
+Drive/
+.racket/

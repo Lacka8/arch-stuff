@@ -186,7 +186,7 @@ bindsym XF86MonBrightnessDown exec light -U -r 16 # decrease screen brightness
 
 # Jack plug fix
 
-bindsym XF86Calculator exec /home/lacka/.scripts/sound_switcher.sh
+bindsym XF86Calculator exec /home/lacka/.scripts/i3/sound_switcher.sh
 
 # Automatic back-and-forth when switching to the current workspace
 
@@ -201,3 +201,7 @@ bindsym $mod+Control+Right workspace next
 
 bindsym $mod+Control+Shift+Left move container to workspace prev; workspace prev
 bindsym $mod+Control+Shift+Right move container to workspace next; workspace next
+
+# Change keyboard layout
+
+bindsym mod4+space exec /home/lacka/.scripts/i3/layout_switcher.sh

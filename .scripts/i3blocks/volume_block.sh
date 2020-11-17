@@ -2,7 +2,7 @@
 
 case $BLOCK_BUTTON in
   1) amixer -q sset Master,0 toggle ;;
-  3) ~/.scripts/sound_switcher.sh > /dev/null ;;
+  3) ~/.scripts/i3/sound_switcher.sh > /dev/null ;;
   4) amixer -q sset Master,0 2+ unmute ;;
   5) amixer -q sset Master,0 2- unmute ;;
 esac
