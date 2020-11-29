@@ -26,3 +26,5 @@ Documents
 .config/rclone/rclone.conf
 Drive/
 .racket/
+.config/Insync/
+.config/autostart/
