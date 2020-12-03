@@ -98,3 +98,4 @@ nnoremap <esc>^[ <esc>^[
 
 " powerline
 let g:powerline_pycmd="python3"
+
