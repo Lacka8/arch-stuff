@@ -28,3 +28,8 @@ Drive/
 .racket/
 .config/Insync/
 .config/autostart/
+.config/MongoDB\ Compass/
+.config/configstore/
+.dbshell
+.mongorc.js
+.npm/
