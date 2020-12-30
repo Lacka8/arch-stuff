@@ -10,7 +10,6 @@ Downloads/
 .config/dconf/
 .gnupg/
 .Xauthority
-.config/sublime-text-3/
 .lesshst
 .viminfo
 tmp/
@@ -33,3 +32,7 @@ Drive/
 .dbshell
 .mongorc.js
 .npm/
+.config/sublime-text-3/*
+!.config/sublime-text-3/Packages/User
+
+

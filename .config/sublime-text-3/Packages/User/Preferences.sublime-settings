@@ -1,0 +1,10 @@
+{
+	"close_windows_when_empty": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 2,
+	"theme": "Seti.sublime-theme",
+	"trim_trailing_white_space_on_save": true
+}

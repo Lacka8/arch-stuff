@@ -1,0 +1,388 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"t",
+				"tree"
+			],
+			[
+				"ca",
+				"category〔variable〕"
+			],
+			[
+				"C",
+				"Character"
+			],
+			[
+				"exi",
+				"exit_status"
+			],
+			[
+				"PS",
+				"PS_COLOR"
+			],
+			[
+				"P",
+				"PS_COLOR"
+			],
+			[
+				"gre",
+				"Green"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"clo",
+				"Project: Close"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"new pro",
+				"Project Manager: Add New Project"
+			],
+			[
+				"proje",
+				"Project: Close"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"add f",
+				"Project: Add Folder"
+			],
+			[
+				"project",
+				"Project Manager"
+			],
+			[
+				"add fol",
+				"Project: Add Folder"
+			],
+			[
+				"new proje",
+				"Project Manager: Add New Project"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"terminal",
+				"Terminal: Open"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/lacka/Documents/wobble",
+		"/home/lacka/Documents/wobble/src",
+		"/home/lacka/Documents/wobble/template_project"
+	],
+	"file_history":
+	[
+		"/home/lacka/tmp/bocadillo/bocadillo/api.py",
+		"/home/lacka/tmp/bocadillo/bocadillo/routing.py",
+		"/home/lacka/tmp/bocadillo/bocadillo/__init__.py",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/url_rewriter.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/scaffolding.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/response.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/rescue.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/request.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/layout.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/filters.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/base.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller.rb",
+		"/home/lacka/tmp/rails/railties/lib/code_statistics.rb",
+		"/home/lacka/Documents/wobble/README.md",
+		"/home/lacka/tmp/rails/actionpack/lib/action_view.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_view/base.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_view/partials.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_view/template_error.rb",
+		"/home/lacka/tmp/rails/railties/lib/dispatcher.rb",
+		"/home/lacka/tmp/rails/railties/lib/generator.rb",
+		"/home/lacka/tmp/rails/railties/lib/webrick_server.rb",
+		"/home/lacka/tmp/rails/railties/dispatches/dispatch.rb",
+		"/home/lacka/tmp/rails/railties/environments/development.rb",
+		"/home/lacka/tmp/rails/railties/environments/production.rb",
+		"/home/lacka/tmp/rails/railties/environments/shared.rb",
+		"/home/lacka/tmp/rails/railties/environments/shared_for_gem.rb",
+		"/home/lacka/tmp/rails/railties/environments/test.rb",
+		"/home/lacka/Documents/wobble/LICENSE",
+		"/home/lacka/Drive/programming/prolog/fib.pl",
+		"/home/lacka/Drive/programming/prolog/restart.pl",
+		"/home/lacka/Drive/programming/prolog/algobead/bead.pl",
+		"/home/lacka/Drive/programming/prolog/avl_tree/tree.pl",
+		"/home/lacka/Drive/programming/prolog/red-black_tree/tree.pl",
+		"/home/lacka/.config/i3/config",
+		"/home/lacka/.config/i3blocks/i3blocks.conf",
+		"/home/lacka/.scripts/i3blocks/time_block.sh",
+		"/home/lacka/.scripts/i3blocks/template/i3blocks-template.sh",
+		"/home/lacka/.bashrc",
+		"/home/lacka/.vimrc",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/Complete.xml",
+		"/home/lacka/.viminfo",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/CoreOnly.xml",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/CorePlusHomebrew-NoUA.xml",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/CorePlusUA-NoHomebrew.xml",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/CorePlusUnreleasedUA.xml",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/CoreRulebooksAndSupplements.xml",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/CoreRulebooks.xml",
+		"/home/lacka/Downloads/FightClub5eXML/FightClub5eXML/Collections/Complete.xml",
+		"/home/lacka/.inputrc",
+		"/home/lacka/Downloads/FightClub5eXML/.git/config",
+		"/home/lacka/Downloads/DnDAppFiles/Compendiums/Full Compendium.xml",
+		"/home/lacka/Downloads/DnDAppFiles/create_compendiums.py",
+		"/home/lacka/Downloads/DnDAppFiles/Homebrew/Class.xml",
+		"/home/lacka/Downloads/DnDAppFiles/Homebrew & Third Party/Races/Orc.xml",
+		"/home/lacka/Downloads/DnDAppFiles/Own/Own.xml",
+		"/home/lacka/Downloads/DnDAppFiles/Character/Races.xml",
+		"/home/lacka/Downloads/DnDAppFiles/Character/Backgrounds.xml",
+		"/etc/sudoers",
+		"/home/lacka/.bash",
+		"/home/lacka/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/lacka/.scripts/select.sh",
+		"/home/lacka/.ssh/id_rsa.pub",
+		"/home/lacka/Downloads/id_rsa.pub"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"/home/lacka/Downloads/FightClub5eXML/Collections",
+			"/home/lacka/Downloads/FightClub5eXML/FightClub5eXML/Collections"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nul",
+			"insertCore",
+			"insert",
+			"print",
+			"prin",
+			"\\n",
+			"separator",
+			"bar",
+			"\n",
+			"StarterSet",
+			"StarteSet",
+			"../FightClub5eXML/Sources/SleepingDragonsWake.xml",
+			"../FightClub5eXML/Sources/StormLordsWrath.xml",
+			"../FightClub5eXML/Sources/DivineContention.xml",
+			"../FightClub5eXML/Sources/DragonOfIcespirePeak.xml",
+			"../FightClub5eXML/Sources/HuntForTheThesselhydra.xml",
+			"../FightClub5eXML/Sources/BaldursGateDescentIntoAvernus.xml",
+			"../FightClub5eXML/Sources/Adventures.xml",
+			"../FightClub5eXML/Sources/LostLaboratoryOfKwalish.xml",
+			"../FightClub5eXML/Sources/LocathahRising.xml",
+			"../FightClub5eXML/Sources/InfernalMachineRebuild.xml",
+			"../FightClub5eXML/Sources/OneGrungAbove.xml",
+			"../FightClub5eXML/Sources/TheTortlePackage.xml",
+			"../FightClub5eXML/Sources/MordenkainensFiendishFolio.xml",
+			"../FightClub5eXML/Sources/WayfindersGuideToEberron.xml",
+			"../FightClub5eXML/Sources/AcquisitionsIncorporated.xml",
+			"../FightClub5eXML/Sources/EberronRisingFromTheLastWar.xml",
+			"../FightClub5eXML/Sources/ExplorersGuideToWildemount.xml",
+			"../FightClub5eXML/Sources/GuildmastersGuideToRavnica.xml",
+			"../FightClub5eXML/Sources/SwordCoastAdventurersGuide.xml",
+			"../FightClub5eXML/Sources/MordenkainensTomeOfFoes.xml",
+			"../FightClub5eXML/Sources/SwordCoastAdventurersGuide.xml",
+			"../FightClub5eXML/Sources/VolosGuideToMonsters.xml",
+			"../FightClub5eXML/Sources/CoreRulebooks.xml",
+			"../FightClub5eXML/Sources/XanatharsGuideToEverything.xml",
+			"source",
+			"brawny"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			" ",
+			"StarterSets",
+			"StarterSet",
+			"../FightClub5eXML/Sources/DnDBeyond/SleepingDragonsWake.xml",
+			"../FightClub5eXML/Sources/DnDBeyond/StormLordsWrath.xml",
+			"../FightClub5eXML/Sources/DnDBeyond/DivineContention.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/StarteSet/DragonOfIcespirePeak.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/StarteSet/HuntForTheThesselhydra.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/AdventureModules/BaldursGateDescentIntoAvernus.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/AdventureModules/Adventures.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/LostLaboratoryOfKwalish.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/LocathahRising.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/InfernalMachineRebuild.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/OneGrungAbove.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/TheTortlePackage.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/MordenkainensFiendishFolio.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/WayfindersGuideToEberron.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/CampaignGuides/AcquisitionsIncorporated.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/CampaignGuides/EberronRisingFromTheLastWar.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/CampaignGuides/ExplorersGuideToWildemount.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/CampaignGuides/GuildmastersGuideToRavnica.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/CampaignGuides/SwordCoastAdventurersGuide.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/Supplements/MordenkainensTomeOfFoes.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/Supplements/SwordCoastAdventurersGuide.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/Supplements/VolosGuideToMonsters.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/CoreRulebooks.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/Supplements/XanatharsGuideToEverything.xml"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 25.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wobble.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

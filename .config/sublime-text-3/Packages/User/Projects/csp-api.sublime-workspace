@@ -1,0 +1,914 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"promise-utility\tscript"
+			],
+			[
+				"res",
+				"resolve\tparameter"
+			],
+			[
+				"va",
+				"validPassword\tconst"
+			],
+			[
+				"cons",
+				"console\tvar"
+			],
+			[
+				"la",
+				"language\tproperty"
+			],
+			[
+				"Id",
+				"findById\tmethod"
+			],
+			[
+				"http",
+				"HttpExceptionStatus\talias"
+			],
+			[
+				"auth",
+				"AuthMiddleware\talias"
+			],
+			[
+				"get",
+				"getUser"
+			],
+			[
+				"req",
+				"Request\talias"
+			],
+			[
+				"app",
+				"append\tmethod"
+			],
+			[
+				"requ",
+				"RequestHandler\talias"
+			],
+			[
+				"midd",
+				"middlewares\tparameter"
+			],
+			[
+				"path",
+				"pathLoggerMiddleware\tfunction"
+			],
+			[
+				"next",
+				"NextFunction\talias"
+			],
+			[
+				"s",
+				"status\tproperty"
+			],
+			[
+				"Req",
+				"RequestHandler\tinterface"
+			],
+			[
+				"ne",
+				"NextFunction\tinterface"
+			],
+			[
+				"ex",
+				"HttpExceptionStatus"
+			],
+			[
+				"Htt",
+				"HttpExceptionStatus\tenum"
+			],
+			[
+				"htt",
+				"http-exception-status"
+			],
+			[
+				"vali",
+				"validationMiddleware\talias"
+			],
+			[
+				"val",
+				"validationMiddleware\tfunction"
+			],
+			[
+				"h",
+				"HttpException\tclass"
+			],
+			[
+				"imp",
+				"import\timports a module …"
+			],
+			[
+				"Re",
+				"Request\talias"
+			],
+			[
+				"user",
+				"userLoginSchema\tconst"
+			],
+			[
+				"us",
+				"userRegisterSchema\talias"
+			],
+			[
+				"err",
+				"Error\tclass"
+			],
+			[
+				"validatorerr",
+				"ValidationErrorItem\tinterface"
+			],
+			[
+				"Bad",
+				"BadRequest\tenum member"
+			],
+			[
+				"use",
+				"userRegisterValidate\talias"
+			],
+			[
+				"Val",
+				"ValidationResult\tinterface"
+			],
+			[
+				"o",
+				"obj"
+			],
+			[
+				"fun",
+				"function\tkeyword"
+			],
+			[
+				"ini",
+				"initializeMiddlewares"
+			],
+			[
+				"cont",
+				"ControllerBase\talias"
+			],
+			[
+				"Erro",
+				"ErrorRequestHandler\tinterface"
+			],
+			[
+				"no",
+				"notFoundMiddleware\talias"
+			],
+			[
+				"re",
+				"RequestHandler\tinterface"
+			],
+			[
+				"Contr",
+				"ControllerType"
+			],
+			[
+				"not",
+				"NotFound\tenum member"
+			],
+			[
+				"in",
+				"InternalServerError\tenum member"
+			],
+			[
+				"valid",
+				"validPassword"
+			],
+			[
+				"Rq",
+				"RequestHandler"
+			],
+			[
+				"Us",
+				"UserSchema"
+			],
+			[
+				"token",
+				"tokenSecret\tconst"
+			],
+			[
+				"_",
+				"_id\tproperty"
+			],
+			[
+				"insta",
+				"instantPromise\talias"
+			],
+			[
+				"fin",
+				"findOne\tmethod"
+			],
+			[
+				"as",
+				"async\tkeyword"
+			],
+			[
+				"sal",
+				"saltRounds\tconst"
+			],
+			[
+				"sa",
+				"savedUser\tconst"
+			],
+			[
+				"tr",
+				"try\tkeyword"
+			],
+			[
+				"con",
+				"console\tvar"
+			],
+			[
+				"mo",
+				"mongoose\talias"
+			],
+			[
+				"t",
+				"tree"
+			],
+			[
+				"ca",
+				"category〔variable〕"
+			],
+			[
+				"C",
+				"Character"
+			],
+			[
+				"exi",
+				"exit_status"
+			],
+			[
+				"PS",
+				"PS_COLOR"
+			],
+			[
+				"P",
+				"PS_COLOR"
+			],
+			[
+				"gre",
+				"Green"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/lacka/Documents/work/csp-api/src/utility/promise-utility.ts",
+			"settings":
+			{
+				"buffer_size": 758,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"clos",
+				"Project: Close"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"prewie",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"type",
+				"TypeScript: Format Document"
+			],
+			[
+				"t",
+				"TypeScript: Format Document"
+			],
+			[
+				"types",
+				"TypeScript: Format Document"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"close ",
+				"Project: Close"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"add fol",
+				"Project: Add Folder"
+			],
+			[
+				"new pr",
+				"Project Manager: Add New Project"
+			],
+			[
+				"clo",
+				"Project: Close"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"new pro",
+				"Project Manager: Add New Project"
+			],
+			[
+				"proje",
+				"Project: Close"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"add f",
+				"Project: Add Folder"
+			],
+			[
+				"project",
+				"Project Manager"
+			],
+			[
+				"new proje",
+				"Project Manager: Add New Project"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"terminal",
+				"Terminal: Open"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/lacka/Documents/work/csp-api",
+		"/home/lacka/Documents/work/csp-api/src",
+		"/home/lacka/Documents/work/csp-api/src/controller",
+		"/home/lacka/Documents/work/csp-api/src/controller/base",
+		"/home/lacka/Documents/work/csp-api/src/controller/interface",
+		"/home/lacka/Documents/work/csp-api/src/middleware",
+		"/home/lacka/Documents/work/csp-api/src/model",
+		"/home/lacka/Documents/work/csp-api/src/utility"
+	],
+	"file_history":
+	[
+		"/home/lacka/Documents/work/csp-api/src/utility/promise-utility.ts",
+		"/home/lacka/Documents/work/csp-api/src/index.ts",
+		"/home/lacka/Documents/work/csp-api/src/model/user.ts",
+		"/home/lacka/Documents/work/csp-api/src/controller/test.controller.ts",
+		"/home/lacka/Documents/work/csp-api/src/controller/auth.controller.ts",
+		"/home/lacka/Documents/work/csp-api/src/app.ts",
+		"/home/lacka/Documents/work/csp-api/.env",
+		"/home/lacka/Documents/work/csp-api/readme.md",
+		"/home/lacka/Documents/work/csp-api/package.json",
+		"/home/lacka/Documents/work/csp-api/src/validator/base/validator.base.ts",
+		"/home/lacka/Documents/work/csp-api/node_modules/@sideway/address/lib/uri.js",
+		"/home/lacka/Documents/work/csp-api/node_modules/joi/lib/template.js",
+		"/home/lacka/Documents/work/csp-api/node_modules/joi/lib/index.d.ts",
+		"/home/lacka/Documents/work/csp-api/src/middleware/auth.middleware.ts",
+		"/home/lacka/Documents/work/csp-api/src/middleware/http-exception.middleware.ts",
+		"/home/lacka/Documents/work/csp-api/src/utility/http.exception.ts",
+		"/home/lacka/Documents/work/csp-api/node_modules/@hapi/hoek/lib/index.d.ts",
+		"/home/lacka/Documents/work/csp-api/src/utility/enum/http-exception-status.enum.ts",
+		"/home/lacka/Documents/work/csp-api/src/middleware/not-found.middleware.ts",
+		"/home/lacka/Documents/work/csp-api/src/controller/base/controller.base.ts",
+		"/home/lacka/Documents/work/csp-api/src/validator/user-register.validator.ts",
+		"/home/lacka/Documents/work/csp-api/src/validator/user-login.validator.ts",
+		"/home/lacka/Documents/work/csp-api/src/utility/enum/http-method.enum.ts",
+		"/home/lacka/Documents/work/csp-api/src/controller/interface/controller.interface.ts",
+		"/home/lacka/Documents/work/csp-api/node_modules/@types/express/index.d.ts",
+		"/home/lacka/Documents/work/csp-api/node_modules/@types/express-serve-static-core/index.d.ts",
+		"/home/lacka/Documents/work/csp-api/tsconfig.json",
+		"/home/lacka/Documents/work/csp-api/build/controller/auth.controller.js",
+		"/home/lacka/Documents/work/csp-api/src/enum/http-exception-status.enum.ts",
+		"/home/lacka/Documents/work/csp-api/src/enum/http-method.enum.ts",
+		"/home/lacka/Documents/work/csp-api/src/factory/app.factory.ts",
+		"/home/lacka/Documents/work/csp-api/src/factory/interface/app-initializer-data.interface.ts",
+		"/home/lacka/Documents/work/csp-api/.gitignore",
+		"/home/lacka/tmp/bocadillo/bocadillo/api.py",
+		"/home/lacka/tmp/bocadillo/bocadillo/routing.py",
+		"/home/lacka/tmp/bocadillo/bocadillo/__init__.py",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/url_rewriter.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/scaffolding.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/response.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/rescue.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/request.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/layout.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/filters.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller/base.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_controller.rb",
+		"/home/lacka/tmp/rails/railties/lib/code_statistics.rb",
+		"/home/lacka/Documents/wobble/README.md",
+		"/home/lacka/tmp/rails/actionpack/lib/action_view.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_view/base.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_view/partials.rb",
+		"/home/lacka/tmp/rails/actionpack/lib/action_view/template_error.rb",
+		"/home/lacka/tmp/rails/railties/lib/dispatcher.rb",
+		"/home/lacka/tmp/rails/railties/lib/generator.rb",
+		"/home/lacka/tmp/rails/railties/lib/webrick_server.rb",
+		"/home/lacka/tmp/rails/railties/dispatches/dispatch.rb",
+		"/home/lacka/tmp/rails/railties/environments/development.rb",
+		"/home/lacka/tmp/rails/railties/environments/production.rb",
+		"/home/lacka/tmp/rails/railties/environments/shared.rb",
+		"/home/lacka/tmp/rails/railties/environments/shared_for_gem.rb",
+		"/home/lacka/tmp/rails/railties/environments/test.rb",
+		"/home/lacka/Documents/wobble/LICENSE",
+		"/home/lacka/Drive/programming/prolog/fib.pl",
+		"/home/lacka/Drive/programming/prolog/restart.pl",
+		"/home/lacka/Drive/programming/prolog/algobead/bead.pl",
+		"/home/lacka/Drive/programming/prolog/avl_tree/tree.pl",
+		"/home/lacka/Drive/programming/prolog/red-black_tree/tree.pl",
+		"/home/lacka/.config/i3/config",
+		"/home/lacka/.config/i3blocks/i3blocks.conf",
+		"/home/lacka/.scripts/i3blocks/time_block.sh",
+		"/home/lacka/.scripts/i3blocks/template/i3blocks-template.sh",
+		"/home/lacka/.bashrc",
+		"/home/lacka/.vimrc",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/Complete.xml",
+		"/home/lacka/.viminfo",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/CoreOnly.xml",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/CorePlusHomebrew-NoUA.xml",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/CorePlusUA-NoHomebrew.xml",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/CorePlusUnreleasedUA.xml",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/CoreRulebooksAndSupplements.xml",
+		"/home/lacka/Downloads/FightClub5eXML/Collections/CoreRulebooks.xml",
+		"/home/lacka/Downloads/FightClub5eXML/FightClub5eXML/Collections/Complete.xml",
+		"/home/lacka/.inputrc",
+		"/home/lacka/Downloads/FightClub5eXML/.git/config",
+		"/home/lacka/Downloads/DnDAppFiles/Compendiums/Full Compendium.xml",
+		"/home/lacka/Downloads/DnDAppFiles/create_compendiums.py",
+		"/home/lacka/Downloads/DnDAppFiles/Homebrew/Class.xml",
+		"/home/lacka/Downloads/DnDAppFiles/Homebrew & Third Party/Races/Orc.xml",
+		"/home/lacka/Downloads/DnDAppFiles/Own/Own.xml",
+		"/home/lacka/Downloads/DnDAppFiles/Character/Races.xml",
+		"/home/lacka/Downloads/DnDAppFiles/Character/Backgrounds.xml",
+		"/etc/sudoers",
+		"/home/lacka/.bash",
+		"/home/lacka/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/lacka/.scripts/select.sh",
+		"/home/lacka/.ssh/id_rsa.pub",
+		"/home/lacka/Downloads/id_rsa.pub"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"/home/lacka/Documents/work/csp-api/src/",
+			"/home/lacka/Documents/work/csp-api/src",
+			"<open folders>,-node_modules/*.*",
+			"<open folders>,-node_modules",
+			"<open folders>,-*.js",
+			"<open folders>",
+			"/home/lacka/Documents/work/csp-api/src/",
+			"/home/lacka/Documents/work/csp-api/src/middleware",
+			"src/",
+			"",
+			"/home/lacka/Downloads/FightClub5eXML/Collections",
+			"/home/lacka/Downloads/FightClub5eXML/FightClub5eXML/Collections"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"then",
+			"any",
+			"error",
+			"Error",
+			"`",
+			"then",
+			"catch",
+			"escapeHt",
+			"LanguageMessages",
+			"messages",
+			"keyof",
+			"messages",
+			"key",
+			"'\"'",
+			"Record",
+			"LanguageMessages",
+			"variable",
+			"key",
+			"IUser",
+			"todo",
+			"header",
+			"\\\"",
+			"res\\.",
+			"express\\.",
+			"express",
+			"express\\.",
+			"express",
+			"express\\.",
+			"express",
+			"express\\.Re",
+			"express",
+			"data",
+			"enum",
+			"res\\.",
+			"req\\.",
+			"express",
+			"console",
+			"next\\(",
+			"next",
+			"import \\*",
+			"import *",
+			"todo",
+			"value",
+			"req.body.",
+			"Register",
+			"todo",
+			"express_app",
+			"appInitializerData",
+			"CspApi",
+			"AppFactory",
+			"App",
+			"app",
+			"status",
+			"user",
+			"async",
+			"Promise<string>",
+			"Promise",
+			"finalHandler",
+			"authMiddleware",
+			"RequestHandlerFunction",
+			"express",
+			"magic",
+			"bp",
+			"process.env",
+			"todo",
+			"err",
+			"this",
+			"body",
+			"getTest",
+			"nul",
+			"insertCore",
+			"insert",
+			"print",
+			"prin",
+			"\\n",
+			"separator",
+			"bar",
+			"\n",
+			"StarterSet",
+			"StarteSet",
+			"../FightClub5eXML/Sources/SleepingDragonsWake.xml",
+			"../FightClub5eXML/Sources/StormLordsWrath.xml",
+			"../FightClub5eXML/Sources/DivineContention.xml",
+			"../FightClub5eXML/Sources/DragonOfIcespirePeak.xml",
+			"../FightClub5eXML/Sources/HuntForTheThesselhydra.xml",
+			"../FightClub5eXML/Sources/BaldursGateDescentIntoAvernus.xml",
+			"../FightClub5eXML/Sources/Adventures.xml",
+			"../FightClub5eXML/Sources/LostLaboratoryOfKwalish.xml",
+			"../FightClub5eXML/Sources/LocathahRising.xml",
+			"../FightClub5eXML/Sources/InfernalMachineRebuild.xml",
+			"../FightClub5eXML/Sources/OneGrungAbove.xml",
+			"../FightClub5eXML/Sources/TheTortlePackage.xml",
+			"../FightClub5eXML/Sources/MordenkainensFiendishFolio.xml",
+			"../FightClub5eXML/Sources/WayfindersGuideToEberron.xml",
+			"../FightClub5eXML/Sources/AcquisitionsIncorporated.xml",
+			"../FightClub5eXML/Sources/EberronRisingFromTheLastWar.xml",
+			"../FightClub5eXML/Sources/ExplorersGuideToWildemount.xml",
+			"../FightClub5eXML/Sources/GuildmastersGuideToRavnica.xml",
+			"../FightClub5eXML/Sources/SwordCoastAdventurersGuide.xml",
+			"../FightClub5eXML/Sources/MordenkainensTomeOfFoes.xml",
+			"../FightClub5eXML/Sources/SwordCoastAdventurersGuide.xml",
+			"../FightClub5eXML/Sources/VolosGuideToMonsters.xml",
+			"../FightClub5eXML/Sources/CoreRulebooks.xml",
+			"../FightClub5eXML/Sources/XanatharsGuideToEverything.xml",
+			"source",
+			"brawny"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			" ",
+			"StarterSets",
+			"StarterSet",
+			"../FightClub5eXML/Sources/DnDBeyond/SleepingDragonsWake.xml",
+			"../FightClub5eXML/Sources/DnDBeyond/StormLordsWrath.xml",
+			"../FightClub5eXML/Sources/DnDBeyond/DivineContention.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/StarteSet/DragonOfIcespirePeak.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/StarteSet/HuntForTheThesselhydra.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/AdventureModules/BaldursGateDescentIntoAvernus.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/AdventureModules/Adventures.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/LostLaboratoryOfKwalish.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/LocathahRising.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/InfernalMachineRebuild.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/OneGrungAbove.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/TheTortlePackage.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/MordenkainensFiendishFolio.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/PODs/WayfindersGuideToEberron.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/CampaignGuides/AcquisitionsIncorporated.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/CampaignGuides/EberronRisingFromTheLastWar.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/CampaignGuides/ExplorersGuideToWildemount.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/CampaignGuides/GuildmastersGuideToRavnica.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/CampaignGuides/SwordCoastAdventurersGuide.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/Supplements/MordenkainensTomeOfFoes.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/Supplements/SwordCoastAdventurersGuide.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/Supplements/VolosGuideToMonsters.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/CoreRulebooks.xml",
+			"../FightClub5eXML/Sources/OfficialMaterial/Supplements/XanatharsGuideToEverything.xml"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/lacka/Documents/work/csp-api/src/utility/promise-utility.ts",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 25.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "csp-api.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 313.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

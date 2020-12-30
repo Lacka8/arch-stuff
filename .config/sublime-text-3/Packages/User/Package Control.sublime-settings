@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"Git",
+		"MarkdownPreview",
+		"Package Control",
+		"ProjectManager",
+		"Prolog",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"Terminal",
+		"Themr",
+		"TypeScript"
+	]
+}
